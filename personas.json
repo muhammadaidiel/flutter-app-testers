@@ -12,7 +12,7 @@
     "id": "malik",
     "platform": "android",
     "profile": "Student, 21, skips every text, taps fast, dark mode everywhere.",
-    "goal": "Reach the main feature as fast as possible, skipping optional steps.",
+    "goal": "Tap + about 15 times fast, then check the number on screen matches exactly how many taps you made.",
     "locale": "en-US",
     "geo": [40.7128, -74.006],
     "device": {"name": "Pixel 7, Android 14", "profile": "pixel_7", "android_api": 34, "font_scale": 1.0, "theme": "dark"}
@@ -39,7 +39,7 @@
     "id": "grace",
     "platform": "android",
     "profile": "Retired nurse, 74, low vision, uses Android's largest font size (200%).",
-    "goal": "Read every screen and complete one task without zooming.",
+    "goal": "Read the whole screen without zooming: the title, the explanation text, the number and the + button must all be readable and not cut off.",
     "locale": "en-US",
     "geo": [41.8781, -87.6298],
     "device": {"name": "Pixel 7, Android 14, 200% font", "profile": "pixel_7", "android_api": 34, "font_scale": 2.0, "theme": "light"}
@@ -129,7 +129,7 @@
     "id": "amira",
     "platform": "ios",
     "profile": "Product manager, 31, reads Arabic, expects a mirrored right-to-left layout.",
-    "goal": "Complete the main task and check that navigation, icons and numbers read right to left.",
+    "goal": "Increase the counter, check the layout is mirrored for right to left, then leave the app, relaunch it and see whether the count was kept.",
     "locale": "ar-SA",
     "geo": [24.7136, 46.6753],
     "device": {"simulator": "iPhone 16 Pro", "ios": 18, "text_size": "large", "theme": "light"}
@@ -147,7 +147,7 @@
     "id": "sven",
     "platform": "ios",
     "profile": "Retired engineer, 80, reads Swedish, the largest accessibility text on a small iPhone.",
-    "goal": "Complete one task: every button must stay readable and reachable.",
+    "goal": "Increase the counter a few times, then check every text and the + button stay readable and reachable at this text size.",
     "locale": "sv-SE",
     "geo": [59.3293, 18.0686],
     "device": {"simulator": "iPhone SE (3rd generation)", "ios": 18, "text_size": "accessibility-extra-extra-extra-large", "theme": "dark"}

@@ -16,10 +16,10 @@ on:
         default: "clara,jonas"
       app_dir:
         description: App folder (where package.json is)
-        default: demo-app
+        default: app
       app_id:
         description: Android package / iOS bundle id (if a platform uses another id, the one inside its built app is used)
-        default: com.example.tinytodo
+        default: com.example.flutter_application_test
       framework:
         description: auto, flutter, expo, react-native, capacitor, kmp, native or maui
         default: auto
